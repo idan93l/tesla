@@ -1,0 +1,475 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: montserrat;
+}
+
+html::-webkit-scrollbar {
+  width: 0px;
+}
+
+.logop1 {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 45px;
+  cursor: pointer;
+}
+
+.page1 {
+  background: url("/tesla/images/page1.jfif");
+  background-size: 100vmax;
+  background-position-x: right;
+  background-position-y: -81px;
+  height: 100vh;
+  width: 100vw;
+}
+
+.navbar {
+  height: 50px;
+  list-style: none;
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 12px;
+  padding-left: 647px;
+  background: transparent;
+  overflow: auto;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding-right: 17px;
+  padding-left: 17px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 13px;
+}
+
+.navbar li a:hover {
+  background-color: rgb(124, 124, 124);
+  color: white;
+  transition: 0.75s;
+}
+
+.navside {
+  float: right;
+  padding-right: 27px;
+}
+
+.header1 {
+  font-size: 20px;
+  color: white;
+  padding-top: 94px;
+  padding-left: 876px;
+}
+
+.sidebar {
+  width: 150px;
+  height: auto;
+  margin-top: 176px;
+  margin-left: 30px;
+  list-style: none;
+  background: transparent;
+}
+
+.sidebar li {
+  float: center;
+}
+
+.sidebar li a {
+  font-size: 10px;
+  font-weight: bold;
+  display: block;
+  color: transparent;
+  text-decoration: none;
+  padding-bottom: 16px;
+}
+
+.sidebar li a:hover {
+  color: #f4f4f4;
+}
+
+.sidelines {
+  width: 15px;
+  color: rgb(144, 144, 144);
+  margin-top: -270px;
+  margin-left: 12px;
+  padding-bottom: 0.5px;
+  cursor: pointer;
+}
+
+.sidelines li {
+  font-size: 24px;
+}
+
+.bottombar1 {
+  width: 500px;
+  height: 40px;
+  list-style: none;
+  margin-top: 206px;
+  margin-left: 710px;
+  background: transparent;
+  overflow: auto;
+}
+
+.bottombar1 li {
+  float: left;
+  display: block;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  padding-right: 65px;
+}
+
+.bb1 {
+  width: 500px;
+  height: 25px;
+  list-style: none;
+  background: transparent;
+  margin-top: 5px;
+  margin-left: 700px;
+  overflow: auto;
+}
+
+.bb1 li {
+  float: left;
+  display: block;
+  color: white;
+  font-size: 13px;
+  font-weight: 400;
+  padding-right: 65px;
+}
+
+.order {
+  position: absolute;
+  margin-top: -60px;
+  margin-left: 1115px;
+  padding-top: 7px;
+  width: 200px;
+  height: 50px;
+}
+
+.order a {
+  color: white;
+  border: 3px solid white;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 35px;
+  padding-left: 35px;
+}
+
+.order a:hover {
+  background: white;
+  color: black;
+  transition: 0.75s;
+}
+
+.arrowb {
+  color: white;
+  width: 36px;
+  height: 40px;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-left: 945px;
+  cursor: pointer;
+}
+
+.speed {
+  width: 55px;
+  height: 45px;
+  margin-top: -115px;
+  margin-left: 655px;
+}
+
+.message {
+  background: white;
+  float: right;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  padding-left: 11px;
+  padding-top: 13px;
+  margin-top: -45px;
+  margin-right: 40px;
+}
+
+.page2 {
+  background: url("/tesla/images/page2.png");
+  background-size: 79vmax;
+  background-position-x: 210px;
+  background-position-y: 32px;
+  height: 100vh;
+  width: 100vw;
+}
+
+.logop2 {
+  position: absolute;
+  margin-top: 19px;
+  margin-left: 45px;
+  cursor: pointer;
+}
+
+.sbp2 {
+  background: white;
+  width: 415px;
+  height: 100vh;
+  list-style: none;
+}
+
+.sbp2 li {
+  border: 1px solid transparent;
+  float: center;
+  margin-left: 50px;
+  margin-right: 45px;
+}
+
+.sbp2_1 {
+  line-height: 15px;
+  font-size: 15px;
+  margin-top: 17px;
+  padding-left: 21px;
+}
+
+.sbp2_1 li {
+  padding-bottom: 1px;
+}
+
+.nav2_1 {
+  float: right;
+  margin-top: -158px;
+  margin-right: 23px;
+}
+
+.nav2_1 li {
+  font-size: 11px;
+  padding-bottom: 18px;
+}
+
+.greyback {
+  background: #e2e4e4;
+  width: 315px;
+  height: 300px;
+  border-radius: 25px;
+  margin-top: -260px;
+  margin-left: 50px;
+}
+
+.sb2footer {
+  width: 415px;
+  height: 30px;
+  margin-top: -77px;
+  margin-left: 30px;
+}
+
+.sb2footer li {
+  display: inline;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.sb2footer li a {
+  text-decoration: none;
+  color: black;
+  padding-left: 20px;
+}
+
+.sbf2 {
+  border: 3px solid black;
+  border-radius: 50px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-right: 11.5px;
+  padding-left: 11.5px;
+  margin-right: 5px;
+}
+
+.sbf2:hover {
+  background: black;
+  color: white;
+}
+
+.orn a {
+  border: 3px solid black;
+  border-radius: 50px;
+  margin-left: 10px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.orn a:hover {
+  background: black;
+  color: white;
+  transition: 0.75s;
+}
+
+.line1 {
+  border-left: 4px solid black;
+  height: 310px;
+  margin-left: 795px;
+  margin-top: -740px;
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+.sphere1 {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  border: 2px solid black;
+  background: white;
+  margin-left: 792.5px;
+}
+
+.line2 {
+  border-left: 4px solid black;
+  height: 175px;
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 10px;
+  margin-left: 1110px;
+  margin-top: -415px;
+}
+
+.sphere2 {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  border: 2px solid black;
+  background: white;
+  margin-left: 1107.4px;
+}
+
+.line3 {
+  border-left: 4px solid black;
+  height: 195px;
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 10px;
+  padding-top: 180px;
+  margin-left: 1170px;
+  margin-top: 290px;
+}
+
+.sphere3 {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  border: 2px solid black;
+  background: white;
+  margin-top: -195px;
+  margin-left: 1167.5px;
+}
+
+.bside {
+  margin-top: -580px;
+}
+
+.p2 li a:hover {
+  color: black;
+}
+
+.arrowp {
+  float: right;
+  color: black;
+  width: 36px;
+  height: 40px;
+  font-size: 22px;
+  margin-top: -590px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.mp2 {
+  margin-top: 225px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 0px 6px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+
+.page3 {
+  background: url("/tesla/images/page3.jfif");
+  background-size: 100vmax;
+  background-position-x: right;
+  background-position-y: -180px;
+  height: 100vh;
+  width: 100vw;
+}
+.bside2 {
+  padding-top: 190px;
+}
+
+.bottombar3 {
+  width: 1000px;
+  height: 40px;
+  list-style: none;
+  margin-top: -51px;
+  margin-left: 619px;
+  background: transparent;
+  overflow: auto;
+}
+
+.bottombar3 li {
+  float: left;
+  display: block;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  padding-right: 220px;
+}
+
+.bb3 {
+  width: 1200px;
+  list-style: none;
+  background: transparent;
+  overflow: auto;
+  margin-left: 477px;
+}
+
+.bb3 li {
+  line-height: 18px;
+  float: left;
+  display: block;
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+  padding-right: 43px;
+}
+
+.p3pdown {
+    background: white;
+    margin-top: 74px;
+    height: 25.8vh;
+    width: 100vw;
+}
+
+.p3footer {
+    position: absolute;
+    list-style: none;
+    margin-left: 471px;
+    margin-top: 145px;
+}
+
+.sb3f {
+    margin-top: 225px;
+    margin-left: 450px;
+}
+
+.pp3f {
+    font-size: 15px;
+    margin-left: 500px;
+    margin-top: -55px;
+    margin-left: 350px;
+}
